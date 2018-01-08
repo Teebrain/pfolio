@@ -1,0 +1,127 @@
+html {
+	text-align: center;
+	background-color: #efefef;
+	font-family: gabriola;
+	color: #02b3e4;
+
+}
+
+
+.logo {
+	text-align: left;
+	position: absolute;
+	left: -40px;
+}
+
+.profile img {
+	border: 1px solid #7d97ad;
+	border-radius: 50%;
+	position: absolute;
+	top: 35px;
+	right: 240px;
+}
+
+
+header {
+  border: 1px solid #7d97ad;
+  background-image: url(../imgs/back.jpg);
+  border-radius: 20px;
+  height: 150px;
+}
+
+
+.heading {
+	font-family: gabriola;
+	font-color: #2d3c49;
+	font-size: 25px;
+	position: absolute;
+	top: 35px;
+	right: 50px;
+	line-height: 20%
+}
+
+
+nav li{
+	text-align: right;
+	position: relative;
+	display: inline-flex;
+	margin: 5px;
+	font-size: 30px;
+	border: 1px #7d97ad;
+	border-radius: 5px;
+	background-color: #7d97ad;
+	right: -480px;
+}
+
+nav a {
+	text-decoration:none;
+}
+
+nav a:hover {
+	background-color: #000000;
+}
+
+
+#Bio {
+	border: 1px solid #7d97ad;
+	border-radius: 20px;
+	margin: 10px;
+}
+
+h2 span {
+	border: 3px dashed #02b3e4;
+	padding: 10px;
+	color: khaki;
+}
+
+p span {
+	text-align: right;
+	position: relative;
+	right: -300px;
+	font-weight: bold;
+}
+
+.container {
+	display: inline-flex;
+	flex-wrap: wrap;
+	line-height: 20%
+	padding: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+.container img {
+  margin: 30px;
+  border-radius: 50%;
+}
+
+#Featuredworks{
+	border: 1px solid #7d97ad;
+	border-radius: 20px;
+	margin: 10px;
+	padding: 10px;
+}
+
+#Presentskills{
+	border: 1px solid #7d97ad;
+	border-radius: 20px;
+	margin: 10px;
+	padding: 10px;
+}
+
+#Presentskills li {
+	text-align: left;
+	margin-bottom: 15px;
+    font-weight: bold;
+    width: 20px;
+}
+
+progress {
+	border: 6px solid seashell;
+    border-radius: 25px;
+}
+
+footer {
+	text-align: left;
+	color: grey;
+}
